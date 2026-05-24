@@ -7,7 +7,7 @@ A multi-disciplinary, production-grade enterprise application designed from scra
 ---
 
 ### 🎯 Project Objective
-The primary objective of this project is to build an asynchronous, dependency-free enterprise ticket-dispatching engine. By designing the application without high-level web frameworks (Django/FastAPI) or object-relational mappers (ORMs), it explicitly showcases programmatic mastery of underlying database transactions, algorithmic resource optimization, and corporate data pipeline management.
+The core objective of this project is to model, optimize, and analyze corporate operational risk and backlog throughput by engineering an automated grievance management data engine. Specifically, the system processes multi-dimensional corporate incident streams—evaluating factors such as infrastructure outage severity, customer contract boundaries (SLA allocations), and real-time ticket age acceleration. By mapping these systemic bottlenecks, the platform calculates a dynamic prioritization index to isolate high-impact infrastructure failures, eliminating task starvation and transforming raw organizational backlog data into clear, actionable business intelligence.
 
 ### 🔄 System Architecture & Process
 The application follows a strict Model-Controller-View (MCV) architecture, split across three academic pillars:
