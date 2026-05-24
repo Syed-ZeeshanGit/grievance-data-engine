@@ -18,8 +18,8 @@ initialize_database()
 
 st.title("⚙️ Enterprise Data & Grievance Governance Engine")
 st.markdown("""
-A multi-disciplinary software engine uniting **Computer Science algorithms**, 
-**Software Engineering data hygiene**, and **Information Systems workflow analytics**.
+A multi-disciplinary software engine uniting **Algorithms**, 
+**Data Hygiene**, and **Workflow Analytics**.
 """)
 st.write("---")
 
@@ -57,9 +57,9 @@ for t in active_raw_tickets:
 # RENDER MULTI-DISCIPLINARY TABS FOR GERMAN ACADEMIC EVALUATION
 # -------------------------------------------------------------------------
 tab_is, tab_cs, tab_se = st.tabs([
-    "📊 [IS] Corporate Governance & Analytics",
-    "🧮 [CS] Algorithmic Heap Scheduling",
-    "💻 [SE] Architectural Blueprint & Verification"
+    "📊 Corporate Governance & Analytics",
+    "🧮 Algorithmic Heap Scheduling",
+    "💻 Architectural Blueprint & Verification"
 ])
 
 # =========================================================================
