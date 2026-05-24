@@ -12,9 +12,9 @@ The primary objective of this project is to build an asynchronous, dependency-fr
 ### 🔄 System Architecture & Process
 The application follows a strict Model-Controller-View (MCV) architecture, split across three academic pillars:
 
-1. **Software Engineering (Data Hygiene):** Initializes an embedded relational SQLite database structured in Third Normal Form (3NF). Data ingestion and modifications are executed via raw, parameterized SQL queries using rigorous ACID transaction properties (`try/except/commit/rollback`) to manage a `tickets` store and an automated tracking `audit_logs` table.
-2. **Computer Science (Algorithmic Scheduling):** Replaces basic array sorting with a custom Binary Max-Heap Priority Queue implemented completely from scratch. The engine computes a dynamic, non-starving priority score for every incoming grievance, performing tree-balancing array operations in deterministic $O(\log n)$ time complexity.
-3. **Information Systems (Process Automation):** Enforces a strict organizational state-machine workflow that tracks the operational lifecycle of a ticket. This data is fed into an analytical layer that aggregates transactional telemetry into visual KPI reporting matrices.
+1. **(Data Hygiene):** Initializes an embedded relational SQLite database structured in Third Normal Form (3NF). Data ingestion and modifications are executed via raw, parameterized SQL queries using rigorous ACID transaction properties (`try/except/commit/rollback`) to manage a `tickets` store and an automated tracking `audit_logs` table.
+2. **(Algorithmic Scheduling):** Replaces basic array sorting with a custom Binary Max-Heap Priority Queue implemented completely from scratch. The engine computes a dynamic, non-starving priority score for every incoming grievance, performing tree-balancing array operations in deterministic $O(\log n)$ time complexity.
+3. **(Process Automation):** Enforces a strict organizational state-machine workflow that tracks the operational lifecycle of a ticket. This data is fed into an analytical layer that aggregates transactional telemetry into visual KPI reporting matrices.
 
 ---
 
